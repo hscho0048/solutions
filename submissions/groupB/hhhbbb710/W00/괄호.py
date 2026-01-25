@@ -9,6 +9,7 @@ for i in range(n):
     l = []
     check = True
     st = list(input().strip())
+    # print(st)
     for j in range(len(st)):
         if st[0] == '(' : l.append(st.pop(0))
         elif st[0] == ')' :
